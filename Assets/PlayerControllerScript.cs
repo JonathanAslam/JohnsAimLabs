@@ -5,8 +5,8 @@ public class PlayerControllerScript : MonoBehaviour
     public float mouseSpeedHorizontal = 2f;
     public float mouseSpeedVertical = 2f;
     [SerializeField] Transform cameraHolder;
-    float rotationY = 0f;
-    float rotationX = 0f;
+    private float rotationY = 0f;
+    private float rotationX = 0f;
 
 
     void Start() {

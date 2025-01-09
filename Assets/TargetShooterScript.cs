@@ -9,7 +9,7 @@ public class TargetShooterScript : MonoBehaviour
 
     [SerializeField] Text scoreText;
 
-    private float score = 0f;
+    public float score = 0f;
 
     void Update(){
         //GetMouseButtonDown(0) is for the left mouse button
